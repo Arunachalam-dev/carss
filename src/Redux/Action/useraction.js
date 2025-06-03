@@ -36,7 +36,7 @@ export const userregister = (reqObj) => async dispatch => {
 
   try {
     
- await axios.post('https://car-backend-3i2s.onrender.com/api/users/register', reqObj);
+ await axios.post('/api/users/register', reqObj);
 
       toast.success("register successfully")
     
